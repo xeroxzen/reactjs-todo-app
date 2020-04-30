@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Todos from './components/Todos';
-import Header from './components/layout/Header'
+import HeaderItem from './components/layout/HeaderItem'
 // import TodoItem from './components/TodoItem';
 import './App.css';
 
@@ -22,7 +22,7 @@ class App extends Component {
       {
         id: 3,
         title: 'Happy Hacking',
-        completed: true
+        completed: false
       },
       {
         id: 4,
@@ -49,7 +49,7 @@ class App extends Component {
   render() {
     return(
       <div className="App">
-        <Header />
+        <HeaderItem />
         <Todos todos={this.state.todos} markComplete={this.markComplete} delTodo={this.delTodo } />
       </div>
     );

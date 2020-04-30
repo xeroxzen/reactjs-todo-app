@@ -1,9 +1,10 @@
 import React from 'react'
+import HeaderItem from './components/layout/HeaderItem';
 
 export default function Header() {
     return (
         <header>
-            <h2>TodoList</h2>
+            <HeaderItem />
         </header>
     )
 }
