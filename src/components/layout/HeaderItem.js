@@ -37,4 +37,4 @@ const linkStyle = {
   fontFamily: 'Georgia'
 };
 
-export default HeaderItem
+export default HeaderItem;

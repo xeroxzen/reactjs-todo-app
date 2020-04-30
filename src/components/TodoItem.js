@@ -45,4 +45,4 @@ const btnStyle={
     float: 'right'
 }
 
-export default TodoItem
+export default TodoItem;
